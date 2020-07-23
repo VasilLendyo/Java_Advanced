@@ -1,5 +1,7 @@
 package domain;
 
+
+//This is product model
 public class Product {
 
 	private Integer id;
