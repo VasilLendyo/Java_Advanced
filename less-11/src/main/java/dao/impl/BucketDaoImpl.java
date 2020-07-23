@@ -13,6 +13,9 @@ import dao.BucketDao;
 import domain.Bucket;
 import utils.ConnectionUtils;
 
+
+
+//This class is used for storing Buckets modes to dataBase
 public class BucketDaoImpl implements BucketDao {
 
 	private static String CREATE = "insert into bucket(user_id, product_id, purchase_date) values (?,?,?)";
