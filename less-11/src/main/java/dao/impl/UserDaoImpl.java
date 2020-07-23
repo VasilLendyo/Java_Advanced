@@ -1,6 +1,5 @@
 package dao.impl;
 
-//This is Dao for user model
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
