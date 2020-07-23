@@ -12,6 +12,7 @@ import dao.ProductDao;
 import domain.Product;
 import utils.ConnectionUtils;
 
+//this is commit that we need to revert
 public class ProductDaoImpl implements ProductDao {
 
 	private static String CREATE = "insert into product(name, description, price) values (?,?,?)";
