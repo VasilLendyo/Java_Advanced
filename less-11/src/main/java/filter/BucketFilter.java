@@ -14,7 +14,7 @@ import javax.servlet.annotation.WebFilter;
 import domain.UserRole;
 import shared.FilterService;
 
-@WebFilter("/bucket.jsp")
+@WebFilter("/bucket.jsp") //very good endpoint naming
 public class BucketFilter implements Filter {
 	
 	private FilterService filterService = FilterService.getFilterService();
